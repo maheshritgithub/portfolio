@@ -47,19 +47,19 @@ h1:hover {
 
 @media (max-width: 768px) {
   .styles ul li {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 630px) {
   .styles ul li {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 470px) {
   .styles ul li {
-      font-size: 12px;
+    font-size: 12px;
   }
 }
 
@@ -71,15 +71,15 @@ h1:hover {
 
 @keyframes animate {
   0% {
-      transform: rotate(0deg) translateY(0px);
-      opacity: 1;
-      filter: blur(1px);
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
   }
 
   100% {
-      transform: rotate(45deg) translateY(-200px);
-      opacity: 0;
-      filter: blur(15px);
+    transform: rotate(45deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(15px);
   }
 }
 
@@ -92,6 +92,7 @@ h1:hover {
 .styles ul li:nth-child(1) {
   animation-delay: 0s;
 }
+
 
 .styles ul li:nth-child(2) {
   animation-delay: 0.2s;
@@ -172,3 +173,5 @@ h1:hover {
 .styles ul li:nth-child(21) {
   animation-delay: 4s;
 }
+
+
