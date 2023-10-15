@@ -121,7 +121,7 @@ function Projects() {
                             <img style={Imagestyles} src={Drums} alt="Drums" />
                         </div>
 
-                        <div style={{ display: "flex", flexDirection: "row", gap: "80px" }}>
+                        <div style={{ display: "flex", flexDirection: "row", gap: "70px" }}>
 
                             <div>
 
