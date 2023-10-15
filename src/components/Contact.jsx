@@ -63,7 +63,7 @@ function Contact() {
         <h1>CONTACT</h1>
       </div>
 
-      <div style={{ backgroundColor: "#341f97", height: "auto", display: "flex", alignItems: "center", alignContent: "center" }}>
+      <div style={{ backgroundColor: "#341f97", height: "55vh", display: "flex", alignItems: "center", alignContent: "center" }}>
         <div style={containerStyle}>
           <form ref={form} onSubmit={sendEmail}>
             <input
