@@ -79,7 +79,7 @@ function About() {
 
             </div>
 
-            <div style={{ backgroundColor: "#ee5253", height: "85vh" }} className="d-flex flex-column align-items-center justify-content-center">
+            <div style={{ backgroundColor: "#ee5253", height: "1000px" }} className="d-flex flex-column align-items-center justify-content-center">
 
                 <div style={containerStyle}>
 
