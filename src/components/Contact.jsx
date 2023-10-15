@@ -65,6 +65,7 @@ function Contact() {
 
       <div style={{ backgroundColor: "#341f97", height: "800px", display: "flex", alignItems: "center", alignContent: "center" }}>
         <div style={containerStyle}>
+          <h2 style={{ color: "white", marginBottom: "20px" }}>Leave a Message for Any Other Information</h2>
           <form ref={form} onSubmit={sendEmail}>
             <input
               className="col-8"
