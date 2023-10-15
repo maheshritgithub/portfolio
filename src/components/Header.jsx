@@ -9,16 +9,19 @@ const Imagestyles = {
   borderRadius: "50%",
   border: "10px solid white",
   boxShadow: "0 0 10px 10px white",
+  marginBottom:"100px"
 };
 
 const Textstyles = {
   color: "white",
   textAlign: "center",
+  marginBottom:"100px",
+  marginTop:"100px"
 };
 
 const containerStyle = {
   backgroundColor: "#333",
-  height: "110vh",
+  height: "auto",
 };
 
 function Header() {

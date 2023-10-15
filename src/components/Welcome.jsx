@@ -1,8 +1,9 @@
 import React from "react";
 
+
 function Welcome() {
   return (
-    <div className="styles d-flex flex-row justify-content-center align-items-center text-center">
+    <div className="styles d-flex flex-row justify-content-center align-items-center text-center" style={{marginTop:"100px",marginBottom:"100px"}}>
       <div>
         <ul>
           <li>W</li>
