@@ -99,7 +99,7 @@ function Projects() {
                             <img style={Imagestyles} src={Notes} alt="Notes" />
                         </div>
 
-                        <div style={{ display: "flex", flexDirection: "row", gap: "80px" }}>
+                        <div style={{ display: "flex", flexDirection: "row"}}>
 
                             <a href="https://maheshritgithub.github.io/List/" target="_blank" style={{ textDecoration: 'none' }}>
                                 <h3 className="h3">Notes App</h3>
@@ -121,7 +121,7 @@ function Projects() {
                             <img style={Imagestyles} src={Drums} alt="Drums" />
                         </div>
 
-                        <div style={{ display: "flex", flexDirection: "row", gap: "70px" }}>
+                        <div style={{ display: "flex", flexDirection: "row" }}>
 
                             <div>
 
