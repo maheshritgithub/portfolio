@@ -99,7 +99,7 @@ function Projects() {
                             <img style={Imagestyles} src={Notes} alt="Notes" />
                         </div>
 
-                        <div style={{ display: "flex", flexDirection: "row"}}>
+                        <div style={{ display: "flex", flexDirection: "row" }}>
 
                             <a href="https://maheshritgithub.github.io/List/" target="_blank" style={{ textDecoration: 'none' }}>
                                 <h3 className="h3">Notes App</h3>
@@ -117,29 +117,25 @@ function Projects() {
                     <div className="col-xxl-6 col-xl-6 col-md-6 col-sm-12 col-12" style={divstyles}>
 
                         <div className="image-container" >
-
-                            <img style={Imagestyles} src={Drums} alt="Drums" />
+                            <img style={Imagestyles}  src={Drums} alt="Drums" />
                         </div>
 
                         <div style={{ display: "flex", flexDirection: "row" }}>
 
-                            <div>
+                            <a href="https://maheshritgithub.github.io/Drum-kit" target="_blank" style={{ textDecoration: 'none' }}>
+                                <h3 className="h3">Musical App</h3>
+                            </a>
 
-                                <a href="https://maheshritgithub.github.io/Drum-kit/" target="_blank" style={{ textDecoration: 'none' }}>
-
-                                    <h3 className="h3">Musical App</h3>
-                                </a>
-
-                                <a href="https://github.com/maheshritgithub/Drum-kit" target="_blank">
-                                    <img style={Iconstyles} src={Giticon} alt="git hub icon" />
-                                </a>
-
-                            </div>
-                            
+                            <a href="https://github.com/maheshritgithub/Drum-kit" target="_blank">
+                                <img style={Iconstyles} src={Giticon} alt="git hub icon" />
+                            </a>
                         </div>
 
 
                     </div>
+
+
+
 
                 </div>
             </div>
@@ -149,3 +145,6 @@ function Projects() {
 }
 
 export default Projects;
+
+
+
